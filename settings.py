@@ -1,3 +1,5 @@
+X_DOMAINS = ['*']  # заборона приймати запити від сайтів, які не в тому самому домені, що й сервер
+
 # mongo connection
 MONGO_URI = 'mongodb://localhost:27017/eve-course'
 
