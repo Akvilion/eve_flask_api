@@ -4,3 +4,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return jsonify({'message': 'Hello World'})
+
+
+@app.route('/login')
+def login():
+    return jsonify({'login': 1})
